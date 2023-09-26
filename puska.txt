@@ -1,0 +1,14 @@
+function myFunction() {
+  console.log('hello world')
+}
+
+myFunction()
+
+
+
+
+function myFunction() {
+  console.log('hello world')
+}
+
+myFunction() // FÜÜGVÉNY MEGHÍVÁSA -> ILYENKOR (ÉS CSAK ILYENKOR) FUT LE

@@ -1,11 +1,19 @@
-let variable = "kis"
-let variable2 = "macska"
+function logger(param) {
+  //let param = "teknősbéka"
+  console.log(param)
+}
 
-let number = 5
-let number2 = 10
+logger("kismacska") // FÜÜGVÉNY MEGHÍVÁSA -> ILYENKOR (ÉS CSAK ILYENKOR) FUT LE
 
-//console.log("100"+ "2");
-//console.log(100+2);
-console.log("variable")
-console.log(variable + variable2)
-console.log(number + number2)
+
+function sumOfTwoNummbers(number1, number2) {
+  //console.log(number1 + number2)
+  let sum = number1 + number2  
+  return sum
+}
+
+/* let result = sumOfTwoNummbers(2,4)
+  logger(result) */
+
+  logger(sumOfTwoNummbers(5, 10))
+
